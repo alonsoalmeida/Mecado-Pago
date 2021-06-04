@@ -1,0 +1,1124 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 655
+  ClientWidth = 491
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 491.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabPosition = PlatformDefault
+    OnChange = TabControl1Change
+    Sizes = (
+      491s
+      391s
+      491s
+      391s
+      491s
+      391s
+      491s
+      391s
+      491s
+      391s
+      491s
+      391s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 81.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CHAVES'
+      ExplicitSize.cx = 234.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout01: TLayout
+        Align = Top
+        Margins.Top = 10.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = VertCenter
+          Position.X = 10.000000000000000000
+          Position.Y = 19.000000000000000000
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label1: TLabel
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 2.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Public Key'
+        end
+      end
+      object Layout02: TLayout
+        Align = Top
+        Position.Y = 60.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = VertCenter
+          Position.X = 10.000000000000000000
+          Position.Y = 19.000000000000000000
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 2.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Access Token'
+        end
+      end
+      object Layout03: TLayout
+        Align = Top
+        Position.Y = 110.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = VertCenter
+          Position.X = 10.000000000000000000
+          Position.Y = 19.000000000000000000
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label3: TLabel
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 2.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Client ID'
+        end
+      end
+      object Layout05: TLayout
+        Align = Top
+        Position.Y = 210.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object CheckBox1: TCheckBox
+          Align = Left
+          IsChecked = True
+          Margins.Left = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'SendBox'
+        end
+        object Button3: TButton
+          Align = Client
+          Margins.Right = 10.000000000000000000
+          Size.Width = 376.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'INICIAR'
+          OnClick = Button3Click
+        end
+      end
+      object Layout04: TLayout
+        Align = Top
+        Position.Y = 160.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Edit4: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = VertCenter
+          Position.X = 10.000000000000000000
+          Position.Y = 19.000000000000000000
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label4: TLabel
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 2.000000000000000000
+          Size.Width = 471.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Client Secret'
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 81.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'PRINCIPAL'
+      ExplicitSize.cx = 234.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object TabControl2: TTabControl
+        Align = Client
+        Size.Width = 491.000000000000000000
+        Size.Height = 391.000000000000000000
+        Size.PlatformDefault = False
+        TabHeight = 49.000000000000000000
+        TabIndex = 0
+        TabPosition = PlatformDefault
+        Sizes = (
+          491s
+          342s
+          491s
+          342s)
+        object TabItem4: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = True
+          Size.Width = 245.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'COMPRADOR'
+          ExplicitSize.cx = 245.000000000000000000
+          ExplicitSize.cy = 49.000000000000000000
+          object ListBox1: TListBox
+            Align = Client
+            Margins.Top = 10.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Size.Width = 491.000000000000000000
+            Size.Height = 322.000000000000000000
+            Size.PlatformDefault = False
+            DisableFocusEffect = True
+            DefaultItemStyles.ItemStyle = ''
+            DefaultItemStyles.GroupHeaderStyle = ''
+            DefaultItemStyles.GroupFooterStyle = ''
+            Viewport.Width = 486.000000000000000000
+            Viewport.Height = 322.000000000000000000
+            object ListBoxItem1: TListBoxItem
+              Selectable = False
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditVenc: TDateEdit
+                Date = 44330.000000000000000000
+                Align = VertCenter
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object ListBoxItem2: TListBoxItem
+              Selectable = False
+              Position.Y = 40.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditValor: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = '5.00'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Valor'
+              end
+            end
+            object ListBoxItem3: TListBoxItem
+              Selectable = False
+              Position.Y = 80.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditPedido: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = '123456'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'N'#250'mero do Pedido'
+              end
+            end
+            object ListBoxItem4: TListBoxItem
+              Selectable = False
+              Position.Y = 120.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditDescri: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'Presta'#231#227'o de Servi'#231'o'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Descri'#231#227'o'
+              end
+            end
+            object ListBoxItem5: TListBoxItem
+              Selectable = False
+              Position.Y = 160.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditPgto: TComboBox
+                Align = VertCenter
+                Items.Strings = (
+                  'BOLETO'
+                  'LOTERICA'
+                  'PIX'
+                  'CARTAO DEBITO'
+                  'CARTAO CREDITO')
+                ItemIndex = 2
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object ListBoxItem6: TListBoxItem
+              Selectable = False
+              Position.Y = 200.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditEmail: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'test@test.com'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Email'
+              end
+            end
+            object ListBoxItem7: TListBoxItem
+              Selectable = False
+              Position.Y = 240.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditNome: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'Test'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Nome'
+              end
+            end
+            object ListBoxItem8: TListBoxItem
+              Selectable = False
+              Position.Y = 280.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditSobre: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'User'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'SobreNome'
+              end
+            end
+            object ListBoxItem9: TListBoxItem
+              Selectable = False
+              Position.Y = 320.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditDoc: TComboBox
+                Align = VertCenter
+                Items.Strings = (
+                  'CPF'
+                  'CNPJ')
+                ItemIndex = 0
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object ListBoxItem10: TListBoxItem
+              Selectable = False
+              Position.Y = 360.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditDCN: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = '19119119100'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'N'#250'mero do Documento'
+              end
+            end
+            object ListBoxItem11: TListBoxItem
+              Selectable = False
+              Position.Y = 400.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditCep: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = '06663055'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Cep'
+              end
+            end
+            object ListBoxItem12: TListBoxItem
+              Selectable = False
+              Position.Y = 440.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditEnd: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'Rua Sebasti'#227'o Mamede'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Endere'#231'o'
+              end
+            end
+            object ListBoxItem13: TListBoxItem
+              Selectable = False
+              Position.Y = 480.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditNumero: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'Sem Numero'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'N'#250'mero'
+              end
+            end
+            object ListBoxItem14: TListBoxItem
+              Selectable = False
+              Position.Y = 520.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditBairro: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'Coahb 1'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Bairro'
+              end
+            end
+            object ListBoxItem15: TListBoxItem
+              Selectable = False
+              Position.Y = 560.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditCidade: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'Itapevi'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Cidade'
+              end
+            end
+            object ListBoxItem16: TListBoxItem
+              Selectable = False
+              Position.Y = 600.000000000000000000
+              Size.Width = 486.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              object EditEstado: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = VertCenter
+                Text = 'SP'
+                Position.X = 50.000000000000000000
+                Position.Y = 4.000000000000000000
+                Margins.Left = 50.000000000000000000
+                Margins.Right = 50.000000000000000000
+                Size.Width = 386.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'Estado'
+              end
+            end
+          end
+        end
+        object TabItem8: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = False
+          Size.Width = 246.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'CART'#195'O'
+          ExplicitSize.cx = 246.000000000000000000
+          ExplicitSize.cy = 49.000000000000000000
+        end
+      end
+    end
+    object TabItem6: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 81.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'EMISS'#195'O'
+      ExplicitSize.cx = 68.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout17: TLayout
+        Align = Top
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Button2: TButton
+          Align = Client
+          Size.Width = 491.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'GERAR BOLETO BANC'#193'RIO'
+          OnClick = Button2Click
+        end
+      end
+      object Layout10: TLayout
+        Align = Client
+        Size.Width = 491.000000000000000000
+        Size.Height = 259.000000000000000000
+        Size.PlatformDefault = False
+        object QRCodeBitmap: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Center
+          Size.Width = 176.000000000000000000
+          Size.Height = 174.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout5: TLayout
+        Align = Bottom
+        Position.Y = 341.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Button1: TButton
+          Align = Client
+          Enabled = False
+          Size.Width = 491.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'COPIA E COLA'
+          OnClick = Button1Click
+        end
+      end
+      object Edit6: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Bottom
+        Position.Y = 309.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 81.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CONSULTAR'
+      ExplicitSize.cx = 156.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout13: TLayout
+        Align = Top
+        Margins.Top = 10.000000000000000000
+        Position.Y = 60.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 63.000000000000000000
+        Size.PlatformDefault = False
+        object Layout14: TLayout
+          Align = Client
+          Size.Width = 360.000000000000000000
+          Size.Height = 63.000000000000000000
+          Size.PlatformDefault = False
+          object Edit5: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = VertCenter
+            Position.X = 20.000000000000000000
+            Position.Y = 27.000000000000000000
+            Margins.Left = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Size.Width = 320.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Label11: TLabel
+            Align = Top
+            Margins.Left = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 20.000000000000000000
+            Size.Width = 320.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'INFORME O ID DO PEDIDO:'
+          end
+        end
+        object Layout1: TLayout
+          Align = Right
+          Margins.Right = 10.000000000000000000
+          Position.X = 360.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 63.000000000000000000
+          Size.PlatformDefault = False
+          object Button6: TButton
+            Align = Bottom
+            Margins.Top = 23.000000000000000000
+            Position.Y = 23.000000000000000000
+            Size.Width = 121.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'EXECUTAR'
+            OnClick = Button6Click
+          end
+        end
+      end
+      object Label12: TLabel
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Left = 30.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Position.Y = 133.000000000000000000
+        Size.Width = 431.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 22.000000000000000000
+        Text = 'Status:'
+      end
+      object Label13: TLabel
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Left = 30.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Position.Y = 166.000000000000000000
+        Size.Width = 431.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 22.000000000000000000
+        Text = 'Creditado:'
+      end
+      object Label14: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 30.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Position.Y = 199.000000000000000000
+        Size.Width = 431.000000000000000000
+        Size.Height = 153.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 22.000000000000000000
+        TextSettings.FontColor = xFFC90D0D
+        TextSettings.HorzAlign = Center
+        Text = 
+          'Para a consulta funcionar a chave Access Token tem que ser a de ' +
+          'produ'#231#227'o.'
+      end
+      object Layout11: TLayout
+        Align = Top
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object BoxTipo: TComboBox
+          Align = VertCenter
+          Items.Strings = (
+            'BUSCAR'
+            'CANCELAR')
+          ItemIndex = 0
+          Margins.Left = 100.000000000000000000
+          Margins.Right = 100.000000000000000000
+          Position.X = 100.000000000000000000
+          Position.Y = 9.000000000000000000
+          Size.Width = 291.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object TabItem5: TTabItem
+      CustomIcon = <
+        item
+        end>
+      StyledSettings = [Family, Style, FontColor]
+      IsSelected = False
+      Size.Width = 81.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'SALDO'
+      ExplicitSize.cx = 67.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout16: TLayout
+        Align = Top
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Button8: TButton
+          Align = Contents
+          Size.Width = 491.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'BUSCAR SALDO DA CONTA'
+          OnClick = Button8Click
+        end
+      end
+      object Layout8: TLayout
+        Align = Top
+        Margins.Top = 10.000000000000000000
+        Position.Y = 60.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 69.000000000000000000
+        Size.PlatformDefault = False
+        object Label6: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 43.000000000000000000
+          Size.Width = 431.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 22.000000000000000000
+          Text = 'Saldo em conta '#233' de:'
+        end
+        object Label9: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 431.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 22.000000000000000000
+          Text = 'SALDO CONTA'
+        end
+      end
+      object Label15: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 30.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Position.Y = 139.000000000000000000
+        Size.Width = 431.000000000000000000
+        Size.Height = 153.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 22.000000000000000000
+        TextSettings.FontColor = xFFC90D0D
+        TextSettings.HorzAlign = Center
+        Text = 
+          'Para a consulta funcionar a chave Access Token tem que ser a de ' +
+          'produ'#231#227'o.'
+      end
+    end
+    object TabItem7: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 86.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'SUA ID'
+      ExplicitSize.cx = 71.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout2: TLayout
+        Align = Top
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Button5: TButton
+          Align = Client
+          Size.Width = 491.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'OBTER DADOS DA SUA ID NO MERCADO PAGO'
+          OnClick = Button5Click
+        end
+        object Button9: TButton
+          Align = Left
+          Position.X = 73.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = '[]'
+          Visible = False
+          OnClick = Button9Click
+        end
+      end
+      object Layout3: TLayout
+        Align = Top
+        Position.Y = 50.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Label16: TLabel
+          Align = VertCenter
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 12.000000000000000000
+          Size.Width = 431.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 22.000000000000000000
+          Text = 'UserID:'
+        end
+      end
+      object Layout4: TLayout
+        Align = Top
+        Position.Y = 100.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Label17: TLabel
+          Align = VertCenter
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 12.000000000000000000
+          Size.Width = 431.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 22.000000000000000000
+          Text = 'Usu'#225'rio:'
+        end
+      end
+      object Layout6: TLayout
+        Align = Top
+        Position.Y = 150.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Label18: TLabel
+          Align = VertCenter
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 12.000000000000000000
+          Size.Width = 431.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 22.000000000000000000
+          Text = 'Name:'
+        end
+      end
+      object Layout18: TLayout
+        Align = Top
+        Position.Y = 200.000000000000000000
+        Size.Width = 491.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        object Label19: TLabel
+          Align = VertCenter
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 30.000000000000000000
+          Margins.Right = 30.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 12.000000000000000000
+          Size.Width = 431.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 22.000000000000000000
+          Text = 'Email:'
+        end
+      end
+    end
+  end
+  object Layout9: TLayout
+    Align = Bottom
+    Position.Y = 605.000000000000000000
+    Size.Width = 491.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle2: TRectangle
+      Align = Contents
+      Fill.Color = claBrown
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 481.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 6.000000000000000000
+      YRadius = 6.000000000000000000
+      object Label7: TLabel
+        Align = VertCenter
+        StyledSettings = [Family, Style]
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 461.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = '...'
+      end
+      object Label10: TLabel
+        Align = Top
+        StyledSettings = [Family]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 3.000000000000000000
+        Size.Width = 461.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Error:'
+      end
+    end
+  end
+  object Layout12: TLayout
+    Align = Bottom
+    Position.Y = 440.000000000000000000
+    Size.Width = 491.000000000000000000
+    Size.Height = 115.000000000000000000
+    Size.PlatformDefault = False
+    object Memo2: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      TextSettings.WordWrap = True
+      Align = Client
+      Size.Width = 491.000000000000000000
+      Size.Height = 115.000000000000000000
+      Size.PlatformDefault = False
+      Viewport.Width = 483.000000000000000000
+      Viewport.Height = 107.000000000000000000
+    end
+  end
+  object Layout7: TLayout
+    Align = Bottom
+    Position.Y = 555.000000000000000000
+    Size.Width = 491.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle1: TRectangle
+      Align = Contents
+      Fill.Color = claBrown
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 481.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 6.000000000000000000
+      YRadius = 6.000000000000000000
+      object Label8: TLabel
+        Align = Top
+        StyledSettings = [Family]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 3.000000000000000000
+        Size.Width = 461.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Status:'
+      end
+      object Label5: TLabel
+        Align = VertCenter
+        StyledSettings = [Family, Style]
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 461.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = '...'
+      end
+    end
+  end
+  object GerenciaPago1: TGerenciaPago
+    Ativo = False
+    ConfigKey.SandBox = False
+    LancarDados.MeioPagar = Boleto
+    OnError = GerenciaPago1Error
+    OnStatus = GerenciaPago1Status
+    OnSaldo = GerenciaPago1Saldo
+    OnBoletoLink = GerenciaPago1BoletoLink
+    OnPixBase64 = GerenciaPago1PixBase64
+    OnPixCopiar = GerenciaPago1PixCopiar
+    Left = 216
+    Top = 504
+  end
+end

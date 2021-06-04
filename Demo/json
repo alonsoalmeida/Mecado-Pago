@@ -1,0 +1,136 @@
+{
+	"paging": {
+		"total": 1,
+		"limit": 30,
+		"offset": 0
+	},
+	"results": [{
+		"acquirer_reconciliation": [],
+		"additional_info": {
+			"available_balance": null,
+			"bank_info": {
+				"is_same_bank_account_owner": true
+			},
+			"nsu_processadora": null
+		},
+		"authorization_code": null,
+		"binary_mode": false,
+		"brand_id": null,
+		"call_for_authorize_id": null,
+		"callback_url": null,
+		"captured": true,
+		"card": {},
+		"charges_details": [],
+		"collector_id": 166957358,
+		"corporation_id": null,
+		"counter_currency": null,
+		"coupon_amount": 0,
+		"currency_id": "BRL",
+		"date_approved": "2021-05-13T00:11:14.000-04:00",
+		"date_created": "2021-05-13T00:09:21.000-04:00",
+		"date_last_updated": "2021-05-13T00:11:14.000-04:00",
+		"date_of_expiration": "2021-05-13T23:00:00.000-04:00",
+		"deduction_schema": null,
+		"description": "LOCAÇÃO DE SISTEMA 132789",
+		"differential_pricing_id": null,
+		"external_reference": "132789",
+		"fee_details": [{
+			"amount": 0.01,
+			"fee_payer": "collector",
+			"type": "mercadopago_fee"
+		}],
+		"id": 14857136091,
+		"installments": 1,
+		"integrator_id": null,
+		"issuer_id": null,
+		"live_mode": true,
+		"marketplace_owner": null,
+		"merchant_account_id": null,
+		"merchant_number": null,
+		"metadata": {},
+		"money_release_date": "2021-05-13T00:11:14.000-04:00",
+		"money_release_schema": null,
+		"notification_url": null,
+		"operation_type": "regular_payment",
+		"order": {},
+		"payer": {
+			"email": "test@test.com",
+			"entity_type": null,
+			"first_name": "Test",
+			"id": "192528586",
+			"identification": {
+				"number": "19119119100",
+				"type": "CPF"
+			},
+			"last_name": "User",
+			"operator_id": null,
+			"phone": {
+				"area_code": null,
+				"extension": null,
+				"number": null
+			},
+			"type": "guest"
+		},
+		"payment_method_id": "pix",
+		"payment_type_id": "bank_transfer",
+		"platform_id": null,
+		"point_of_interaction": {
+			"application_data": {
+				"name": null,
+				"version": null
+			},
+			"sub_type": "INTER_PSP",
+			"transaction_data": {
+				"bank_info": {
+					"collector": {
+						"account_holder_name": "Sergio Alonso de Almeida",
+						"account_id": 62083798652,
+						"long_name": "Mercadopago.com Representações Ltda.",
+						"transfer_account_id": null
+					},
+					"is_same_bank_account_owner": true,
+					"payer": {
+						"account_id": 12840173,
+						"id": null,
+						"long_name": "BANCO INTER S.A."
+					}
+				},
+				"bank_transfer_id": 64805201,
+				"financial_institution": 1,
+				"qr_code": "00020126580014br.gov.bcb.pix01364b0c1fe6-d572-4d2c-b7a8-d03aa85ee8df52040000530398654041.005802BR5915LUAR INFORMTICA6007Itapevi62240520mpqrinter148571360916304AA10",
+				"qr_code_base64": "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",
+				"transaction_id": "PIXE00416968202105130411UpQPkwhu50o"
+			},
+			"type": "OPENPLATFORM"
+		},
+		"pos_id": null,
+		"processing_mode": "aggregator",
+		"refunds": [],
+		"shipping_amount": 0,
+		"sponsor_id": null,
+		"statement_descriptor": null,
+		"status": "approved",
+		"status_detail": "accredited",
+		"store_id": null,
+		"taxes_amount": 0,
+		"transaction_amount": 1,
+		"transaction_amount_refunded": 0,
+		"transaction_details": {
+			"acquirer_reference": null,
+			"bank_transfer_id": 64805201,
+			"external_resource_url": null,
+			"financial_institution": "1",
+			"installment_amount": 0,
+			"net_received_amount": 0.99,
+			"overpaid_amount": 0,
+			"payable_deferral_period": null,
+			"payment_method_reference_id": null,
+			"total_paid_amount": 1,
+			"transaction_id": "PIXE00416968202105130411UpQPkwhu50o"
+		},
+		"shipping_cost": 0
+	}]
+}

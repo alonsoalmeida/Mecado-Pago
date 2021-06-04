@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/07 11:14:55.000.131,=rtl.dcp</Transaction>
+    <Transaction>2021/02/07 11:15:00.000.462,=I:\PagOnLine\GerenciaPago\GerenciaPago.pas</Transaction>
+    <Transaction>2021/05/11 07:23:51.000.022,=I:\PagOnLine\GerenciaPago\RestClient_u.pas</Transaction>
+    <Transaction>2021/05/11 07:24:21.000.973,=I:\PagOnLine\GerenciaPago\MercadoPago_u.pas</Transaction>
+    <Transaction>2021/05/11 07:27:51.000.378,=fmx.dcp</Transaction>
+    <Transaction>2021/05/11 07:27:51.000.432,=dbrtl.dcp</Transaction>
+    <Transaction>2021/05/11 07:27:51.000.537,=DbxCommonDriver.dcp</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="K4AXB6010422F4D" Android64="K4AXB6010422F4D"/>
+	</ActiveMobileDevice>
+</BorlandProject>
